@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
   },
   "dependencies": {
     "axios": "^1.7.7",
@@ -21,6 +22,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
@@ -31,6 +34,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.11.0",
+    "jest": "^30.0.4",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
     "vite": "^7.0.5"
